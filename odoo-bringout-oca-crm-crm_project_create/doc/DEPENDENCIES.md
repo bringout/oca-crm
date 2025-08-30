@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [crm](https://github.com/bringout/oca-ocb-crm/tree/8f721b381181327c6481d71c95dec5880e688a90/odoo-bringout-oca-ocb-crm)
-- [sale_project](https://github.com/bringout/oca-ocb-sale/tree/3e269fa48ad4d81d3305977a3a962b1dc0f75ef3/odoo-bringout-oca-ocb-sale_project)
+- [crm](https://github.com/bringout/oca-ocb-crm/tree/0ad2580ab66beb112afd79e8b62662f311e15687/odoo-bringout-oca-ocb-crm)
+- [sale_project](https://github.com/bringout/oca-ocb-sale/tree/b79cef0fc454482466e93989011360a14a738822/odoo-bringout-oca-ocb-sale_project)
 - [mail_message_destiny_link_template](https://github.com/bringout/oca-technical)
