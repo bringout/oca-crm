@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [crm](https://github.com/bringout/oca-ocb-crm/tree/91c84355b39d24bdefbb75d18ca9c90b7ce8e9be/odoo-bringout-oca-ocb-crm)
-- [sales_team](https://github.com/bringout/oca-ocb-sale/tree/d85ae419535f3bb204d666806d83849c7cf0b3b0/odoo-bringout-oca-ocb-sales_team)
+- [crm](https://github.com/bringout/oca-ocb-crm/tree/1abf2e5aabae09f7db4369444d5c2df2227c4226/odoo-bringout-oca-ocb-crm)
+- [sales_team](https://github.com/bringout/oca-ocb-sale/tree/de00eb97dbc73b96112477e8671cd8ab774267d5/odoo-bringout-oca-ocb-sales_team)
 - base_location_nuts

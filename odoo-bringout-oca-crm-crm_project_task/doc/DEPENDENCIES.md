@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [crm](https://github.com/bringout/oca-ocb-crm/tree/91c84355b39d24bdefbb75d18ca9c90b7ce8e9be/odoo-bringout-oca-ocb-crm)
-- [project](https://github.com/bringout/oca-ocb-project/tree/b274636f3c96bbfe6c249bb36d4e102bcda60825/odoo-bringout-oca-ocb-project)
+- [crm](https://github.com/bringout/oca-ocb-crm/tree/1abf2e5aabae09f7db4369444d5c2df2227c4226/odoo-bringout-oca-ocb-crm)
+- [project](https://github.com/bringout/oca-ocb-project/tree/809651b278c629c9ab475d69f9fc93c05c3389da/odoo-bringout-oca-ocb-project)
