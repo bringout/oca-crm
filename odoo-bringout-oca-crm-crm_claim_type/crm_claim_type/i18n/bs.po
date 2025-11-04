@@ -13,86 +13,97 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:crm.claim.stage,name:crm_claim_type.stage_claim10
 msgid "Accepted"
 msgstr "Prihvaćeno"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__active
 msgid "Active"
 msgstr "Aktivan"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model,name:crm_claim_type.model_crm_claim
 msgid "Claim"
 msgstr "Zahtjev"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model,name:crm_claim_type.model_crm_claim_type
-#: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim__claim_type
-#: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_stage__claim_type
-#: model_terms:ir.ui.view,arch_db:crm_claim_type.crm_stage_claim_type_search
 msgid "Claim Type"
 msgstr "Vrsta zahtjeva"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.actions.act_window,name:crm_claim_type.crm_claim_type_act
-#: model:ir.ui.menu,name:crm_claim_type.menu_crm_claim_type_act
 msgid "Claim Types"
 msgstr "Tip zahtjeva"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,help:crm_claim_type.field_crm_claim__claim_type
-#: model:ir.model.fields,help:crm_claim_type.field_crm_claim_stage__claim_type
 msgid "Claim classification"
 msgstr "Klasifikacija zahtjeva"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model,name:crm_claim_type.model_crm_claim_stage
 msgid "Claim stages"
 msgstr "Faze zahtjeva"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model_terms:ir.ui.view,arch_db:crm_claim_type.crm_claim_type_form
 msgid "Claim type"
 msgstr "Tip zahtjeva"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_stage__claim_common
 msgid "Common to All Claim Types"
 msgstr "Zajedničko svim tipovima zahtjeva"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:crm.claim.type,name:crm_claim_type.crm_claim_type_customer
 msgid "Customer"
 msgstr "Kupac"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__description
 msgid "Description"
 msgstr "Opis"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:crm.claim.stage,name:crm_claim_type.stage_claim11
 msgid "Done"
 msgstr "Završeno"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model_terms:ir.ui.view,arch_db:crm_claim_type.crm_stage_claim_type_search
 msgid "Group By"
@@ -109,42 +120,52 @@ msgid ""
 "If you check this field, this stage will be proposed by default on each "
 "claim type."
 msgstr ""
+"Ako označite ovo polje, ova faza će biti predložena po defaultu na svakom "
+"tipu žalbe."
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__name
 msgid "Name"
 msgstr "Ime"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:crm.claim.type,name:crm_claim_type.crm_claim_type_other
 msgid "Other"
 msgstr "Ostalo"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model_terms:ir.ui.view,arch_db:crm_claim_type.crm_stage_claim_type_search
 msgid "Search Stages"
 msgstr "Pretraži faze"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim__stage_id
 msgid "Stage"
 msgstr "Faza"
 
+# taken from hr.po
 #. module: crm_claim_type
 #: model:crm.claim.type,name:crm_claim_type.crm_claim_type_supplier
 msgid "Supplier"

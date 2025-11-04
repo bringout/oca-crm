@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_needaction
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_needaction
 msgid "Action Needed"
 msgstr "Potrebna akcija"
 
@@ -61,7 +60,6 @@ msgstr "Dozvoli preplaniranje"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_attachment_count
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_attachment_count
 msgid "Attachment Count"
 msgstr "Broj priloga"
 
@@ -77,28 +75,21 @@ msgstr "Po danu"
 
 #. module: crm_salesperson_planner
 #: model:ir.actions.server,name:crm_salesperson_planner.ir_cron_create_visits_ir_actions_server
-#: model:ir.cron,cron_name:crm_salesperson_planner.ir_cron_create_visits
 msgid "CRM: Create salesperson visits"
 msgstr "CRM: Kreiraj posjete prodavčara"
 
 #. module: crm_salesperson_planner
 #: model:ir.model,name:crm_salesperson_planner.model_calendar_event
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__calendar_event_id
 msgid "Calendar Event"
 msgstr "Događaj na kalendaru"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields.selection,name:crm_salesperson_planner.selection__crm_salesperson_planner_visit_close_reason__close_type__cancel
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_close_wiz_view_form
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_form_view
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_template_create_view_form
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_template_form_view
 msgid "Cancel"
 msgstr "Otkaži"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields.selection,name:crm_salesperson_planner.selection__crm_salesperson_planner_visit__state__cancel
-#: model:ir.model.fields.selection,name:crm_salesperson_planner.selection__crm_salesperson_planner_visit_template__state__cancel
 msgid "Cancelled"
 msgstr "Otkazan"
 
@@ -109,8 +100,6 @@ msgstr "Informacija o zatvaranju"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__close_reason_id
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_close_reason_form_view
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_close_wiz_view_form
 msgid "Close Reason"
 msgstr "Razlog zatvaranja"
 
@@ -126,16 +115,11 @@ msgstr "Napomene razloga zatvaranja"
 
 #. module: crm_salesperson_planner
 #: model:ir.actions.act_window,name:crm_salesperson_planner.crm_salesperson_planner_visit_close_reason_action
-#: model:ir.actions.act_window,name:crm_salesperson_planner.crm_salesperson_planner_visit_close_wiz_action
-#: model:ir.ui.menu,name:crm_salesperson_planner.menu_crm_config_salesperson_planner_close_reason
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_tree_view
 msgid "Close Reasons"
 msgstr "Razlozi zatvaranja"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__company_id
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__company_id
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_filter
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -156,7 +140,6 @@ msgstr "Kreiraj"
 
 #. module: crm_salesperson_planner
 #: model:ir.actions.act_window,name:crm_salesperson_planner.crm_salesperson_planner_visit_template_create_action
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_template_create_view_form
 msgid "Create Visits"
 msgstr "Kreiraj posjete"
 
@@ -167,19 +150,11 @@ msgstr "Kreirajte i planirajte šablone komercijalnih posjeta"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__create_uid
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_reason__create_uid
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_wiz__create_uid
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__create_uid
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template_create__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__create_date
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_reason__create_date
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_wiz__create_date
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__create_date
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template_create__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -190,7 +165,6 @@ msgstr "Šablon planera posjeta prodavčara CRM-a"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__partner_id
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__partner_ids
 msgid "Customer"
 msgstr "Kupac"
 
@@ -201,7 +175,6 @@ msgstr "Datum"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__day
-#: model:ir.model.fields.selection,name:crm_salesperson_planner.selection__crm_salesperson_planner_visit_template__month_by__date
 msgid "Date of month"
 msgstr "Dan u mjesecu"
 
@@ -227,31 +200,21 @@ msgstr "Dani"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__description
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_reason__name
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__description
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_template_form_view
 msgid "Description"
 msgstr "Opis"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__display_name
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_reason__display_name
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_wiz__display_name
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__display_name
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template_create__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields.selection,name:crm_salesperson_planner.selection__crm_salesperson_planner_visit_template__state__done
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_form_view
 msgid "Done"
 msgstr "Gotovo"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields.selection,name:crm_salesperson_planner.selection__crm_salesperson_planner_visit__state__draft
-#: model:ir.model.fields.selection,name:crm_salesperson_planner.selection__crm_salesperson_planner_visit_template__state__draft
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_form_view
 msgid "Draft"
 msgstr "U pripremi"
 
@@ -272,12 +235,14 @@ msgstr "Završni datum"
 
 #. module: crm_salesperson_planner
 #. odoo-python
-#: code:addons/crm_salesperson_planner/models/calendar_event.py:0
+#: code:addons/crm_salesperson_planner/models/calendar_event.py
 #, python-format
 msgid ""
 "Event %(event_name)s is related to salesperson visit %(partner_name)s. "
 "Cancel it to delete this event.\n"
 msgstr ""
+"Event %(event_name)s is related to salesperson visit %(partner_name)s. "
+"Cancel it to delete this event.\n"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields.selection,name:crm_salesperson_planner.selection__crm_salesperson_planner_visit_template__byday__1
@@ -286,13 +251,11 @@ msgstr "Prvi"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_follower_ids
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_follower_ids
 msgid "Followers"
 msgstr "Pratioci"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_partner_ids
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_partner_ids
 msgid "Followers (Partners)"
 msgstr "Pratioci (Partneri)"
 
@@ -338,16 +301,11 @@ msgstr "Grupiši po"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__has_message
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__has_message
 msgid "Has Message"
 msgstr "Ima poruku"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__id
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_reason__id
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_wiz__id
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__id
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template_create__id
 msgid "ID"
 msgstr "ID"
 
@@ -363,13 +321,11 @@ msgstr "Ikona za prikaz iznimki."
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_needaction
-#: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_needaction
 msgid "If checked, new messages require your attention."
 msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_has_error
-#: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_has_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 
@@ -385,8 +341,6 @@ msgstr "U Toku"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields.selection,name:crm_salesperson_planner.selection__crm_salesperson_planner_visit__state__incident
-#: model:ir.model.fields.selection,name:crm_salesperson_planner.selection__crm_salesperson_planner_visit_close_reason__close_type__incident
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_form_view
 msgid "Incident"
 msgstr "Incident"
 
@@ -397,7 +351,6 @@ msgstr "Interne zabilješke"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_is_follower
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_is_follower
 msgid "Is Follower"
 msgstr "Pratilac"
 
@@ -408,28 +361,16 @@ msgstr "Zadnji"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit____last_update
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_reason____last_update
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_wiz____last_update
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template____last_update
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template_create____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__write_uid
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_reason__write_uid
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_wiz__write_uid
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__write_uid
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template_create__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__write_date
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_reason__write_date
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_wiz__write_date
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__write_date
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template_create__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -455,7 +396,6 @@ msgstr "Neka se događaj automatski ponavlja u ovim intervalima"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_main_attachment_id
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Glavna zakačka"
 
@@ -466,13 +406,11 @@ msgstr "Ručno kreiraj posjete"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_has_error
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_has_error
 msgid "Message Delivery error"
 msgstr "Greška pri isporuci poruke"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_ids
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_ids
 msgid "Messages"
 msgstr "Poruke"
 
@@ -503,7 +441,6 @@ msgstr "Rok za moju aktivnost"
 
 #. module: crm_salesperson_planner
 #: model:ir.ui.menu,name:crm_salesperson_planner.menu_crm_salesperson_planner_my_visits
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_filter
 msgid "My Visits"
 msgstr "Moje posjete"
 
@@ -544,7 +481,6 @@ msgstr "Obavijesti poslane svim sudionicima kako bi podsjetile na sastanak."
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_needaction_counter
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_needaction_counter
 msgid "Number of Actions"
 msgstr "Broj akcija"
 
@@ -555,25 +491,21 @@ msgstr "Broj posjeta prodajnih osoba"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_res_partner__salesperson_planner_visit_count
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_res_users__salesperson_planner_visit_count
 msgid "Number of Salesperson Visits"
 msgstr "Broj posjeta prodavčara"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_has_error_counter
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_has_error_counter
 msgid "Number of errors"
 msgstr "Broj grešaka"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_needaction_counter
-#: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_needaction_counter
 msgid "Number of messages requiring action"
 msgstr "Broj poruka koje zahtijevaju aktivnost"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit__message_has_error_counter
-#: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Broj poruka sa greškama pri isporuci"
 
@@ -584,15 +516,13 @@ msgstr "Broj ponavljanja"
 
 #. module: crm_salesperson_planner
 #. odoo-python
-#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit_template.py:0
-#: code:addons/crm_salesperson_planner/tests/test_crm_salesperson_planner_visit.py:0
+#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit_template.py
 #, python-format
 msgid "Only one customer is allowed"
 msgstr "Dozvoljen je samo jedan kupac"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__opportunity_ids
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_form_view
 msgid "Opportunities"
 msgstr "Prilike"
 
@@ -683,13 +613,11 @@ msgstr "Ponovi x puta"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_reason__require_image
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_wiz__require_image
 msgid "Require Image"
 msgstr "Zahtijeva sliku"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_reason__reschedule
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_wiz__reschedule
 msgid "Reschedule"
 msgstr "Ponovo zakaži"
 
@@ -700,7 +628,6 @@ msgstr "Odgovorni korisnik"
 
 #. module: crm_salesperson_planner
 #: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_template_form_view
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.partner_view_crm_salesperson_planner
 msgid "Sales Visits"
 msgstr "Prodajne posjete"
 
@@ -711,14 +638,11 @@ msgstr "Razlog zatvaranja planera posjeta prodavčara"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__user_id
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__user_id
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_filter
 msgid "Salesperson"
 msgstr "Referent prodaje"
 
 #. module: crm_salesperson_planner
 #: model:ir.ui.menu,name:crm_salesperson_planner.menu_crm_config_salesperson_planner
-#: model:ir.ui.menu,name:crm_salesperson_planner.menu_salesperson_planner
 msgid "Salesperson Planner"
 msgstr "Planer prodavčara"
 
@@ -729,7 +653,6 @@ msgstr "Planer posjeta prodavčara"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_calendar_event__salesperson_planner_visit_ids
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_lead_crm_salesperson_planner
 msgid "Salesperson Visits"
 msgstr "Posjete prodavčara"
 
@@ -765,8 +688,6 @@ msgstr "Pošalji u nacrt"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__sequence
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_wiz__new_sequence
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__sequence
 msgid "Sequence"
 msgstr "Sekvenca"
 
@@ -792,7 +713,6 @@ msgstr "Status"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__state
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__state
 msgid "Status"
 msgstr "Status"
 
@@ -804,6 +724,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__stop
@@ -842,43 +766,42 @@ msgstr "!"
 
 #. module: crm_salesperson_planner
 #. odoo-python
-#: code:addons/crm_salesperson_planner/wizards/crm_salesperson_planner_visit_close_wiz.py:0
+#: code:addons/crm_salesperson_planner/wizards/crm_salesperson_planner_visit_close_wiz.py
 #, python-format
 msgid "The close reason type haven't a function."
 msgstr "Tip razloga zatvaranja nema funkciju."
 
 #. module: crm_salesperson_planner
 #. odoo-python
-#: code:addons/crm_salesperson_planner/wizards/crm_salesperson_planner_visit_template_create.py:0
+#: code:addons/crm_salesperson_planner/wizards/crm_salesperson_planner_visit_template_create.py
 #, python-format
 msgid "The date can't be earlier than today"
 msgstr "Datum ne može biti raniji od danas"
 
 #. module: crm_salesperson_planner
 #. odoo-python
-#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit.py:0
+#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit.py
 #, python-format
 msgid "The visit must be in cancelled, incident or visited state"
 msgstr "Posjeta mora biti u otkazanom, incident ili posjećenom stanju"
 
 #. module: crm_salesperson_planner
 #. odoo-python
-#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit.py:0
+#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit.py
 #, python-format
 msgid "The visit must be in confirmed state"
 msgstr "Posjeta mora biti u potvrđenom stanju"
 
 #. module: crm_salesperson_planner
 #. odoo-python
-#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit.py:0
-#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit.py:0
+#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit.py
 #, python-format
 msgid "The visit must be in draft or validated state"
 msgstr "Posjeta mora biti u nacrtu ili validiranom stanju"
 
 #. module: crm_salesperson_planner
 #. odoo-python
-#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit.py:0
+#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit.py
 #, python-format
 msgid "The visit must be in draft state"
 msgstr "Posjeta mora biti u stanju nacrta"
@@ -940,14 +863,11 @@ msgstr "Vrsta aktivnosti iznimke na zapisu."
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__until
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_template_form_view
 msgid "Until"
 msgstr "Dok"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit__sequence
-#: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit_close_wiz__new_sequence
-#: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__sequence
 msgid "Used to order Visits in the different views"
 msgstr "Koristi se za sortiranje posjeta u različitim pogledima"
 
@@ -973,8 +893,6 @@ msgstr "Broj posjete"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__visit_template_id
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__visit_ids
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_template_form_view
 msgid "Visit Template"
 msgstr "Šablon posjete"
 
@@ -985,7 +903,6 @@ msgstr "Broj šablona posjete"
 
 #. module: crm_salesperson_planner
 #: model:ir.actions.act_window,name:crm_salesperson_planner.crm_salesperson_planner_visit_template_action
-#: model:ir.ui.menu,name:crm_salesperson_planner.menu_crm_salesperson_planner_visit_template
 msgid "Visit Templates"
 msgstr "Šabloni posjeta"
 
@@ -1001,14 +918,12 @@ msgstr "Posjećeno"
 
 #. module: crm_salesperson_planner
 #: model:ir.actions.act_window,name:crm_salesperson_planner.all_crm_salesperson_planner_visit_action
-#: model:ir.actions.act_window,name:crm_salesperson_planner.my_crm_salesperson_planner_visit_action
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_lead__crm_salesperson_planner_visit_ids
 msgid "Visits"
 msgstr "Posjeti"
 
 #. module: crm_salesperson_planner
 #. odoo-python
-#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit.py:0
+#: code:addons/crm_salesperson_planner/models/crm_salesperson_planner_visit.py
 #, python-format
 msgid "Visits must be in cancelled state"
 msgstr "Posjete moraju biti u otkazanom stanju"
@@ -1020,13 +935,11 @@ msgstr "Posjete koje su mi dodijeljene"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__website_message_ids
-#: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__website_message_ids
 msgid "Website Messages"
 msgstr "Poruke sa website-a"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit__website_message_ids
-#: model:ir.model.fields,help:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__website_message_ids
 msgid "Website communication history"
 msgstr "Povijest komunikacije Web stranice"
 

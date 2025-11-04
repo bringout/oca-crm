@@ -55,7 +55,6 @@ msgstr "Glavni izuzetak"
 
 #. module: crm_exception
 #: model:exception.rule,description:crm_exception.crm_excep_no_partner
-#: model:exception.rule,name:crm_exception.crm_excep_no_partner
 msgid "No Customer"
 msgstr "Nema kupca"
 

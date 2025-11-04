@@ -30,7 +30,6 @@ msgstr "Broj prodajnih naloga"
 
 #. module: crm_salesperson_planner_sale
 #: model:ir.model.fields,field_description:crm_salesperson_planner_sale.field_crm_salesperson_planner_visit__order_ids
-#: model_terms:ir.ui.view,arch_db:crm_salesperson_planner_sale.crm_salesperson_planner_visit_sale_form_view
 msgid "Orders"
 msgstr "Nalozi"
 

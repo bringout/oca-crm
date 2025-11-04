@@ -25,8 +25,6 @@ msgstr "Dodijeljeni kontakt partnera"
 
 #. module: crm_partner_assign
 #: model_terms:ir.ui.view,arch_db:crm_partner_assign.view_crm_case_leads_filter
-#: model_terms:ir.ui.view,arch_db:crm_partner_assign.view_crm_case_opportunities_filter
-#: model_terms:ir.ui.view,arch_db:crm_partner_assign.view_res_partner_filter
 msgid "Assigned partner"
 msgstr "Dodjeljeni partner"
 
@@ -37,19 +35,16 @@ msgstr "Kontakt"
 
 #. module: crm_partner_assign
 #: model:ir.model.fields,field_description:crm_partner_assign.field_res_partner__implemented_partner_ids
-#: model:ir.model.fields,field_description:crm_partner_assign.field_res_users__implemented_partner_ids
 msgid "Implementation References"
 msgstr "Implementacijska referenca"
 
 #. module: crm_partner_assign
 #: model:ir.model.fields,field_description:crm_partner_assign.field_res_partner__implemented_count
-#: model:ir.model.fields,field_description:crm_partner_assign.field_res_users__implemented_count
 msgid "Implemented Count"
 msgstr "Broj implementiranih"
 
 #. module: crm_partner_assign
 #: model:ir.model.fields,field_description:crm_partner_assign.field_res_partner__assigned_partner_id
-#: model:ir.model.fields,field_description:crm_partner_assign.field_res_users__assigned_partner_id
 msgid "Implemented by"
 msgstr "Implementirao"
 

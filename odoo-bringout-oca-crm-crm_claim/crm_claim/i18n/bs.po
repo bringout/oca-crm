@@ -13,60 +13,70 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_res_partner__claim_count
-#: model:ir.model.fields,field_description:crm_claim.field_res_users__claim_count
 msgid "# Claims"
 msgstr "# Zahtjeva"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__email
 msgid "# Emails"
 msgstr "# Mailova"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__nbr_claims
 msgid "# of Claims"
 msgstr "# Zahtjeva"
 
+# taken from hr.po
 #. module: crm_claim
 #. odoo-python
-#: code:addons/crm_claim/models/crm_claim.py:0
+#: code:addons/crm_claim/models/crm_claim.py
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (kopija)"
 
+# taken from hr.po
 #. module: crm_claim
 #: model_terms:ir.ui.view,arch_db:crm_claim.crm_case_claims_form_view
 msgid "Action Description..."
 msgstr "Opis aktivnosti..."
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__message_needaction
 msgid "Action Needed"
 msgstr "Potrebna radnja"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__type_action
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__type_action
 msgid "Action Type"
 msgstr "Vrsta radnje"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__active
 msgid "Active"
 msgstr "Aktivan"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__activity_ids
 msgid "Activities"
 msgstr "Aktivnosti"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__activity_exception_decoration
+#, fuzzy
 msgid "Activity Exception Decoration"
 msgstr "Opis aktivnosti..."
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__activity_state
 msgid "Activity State"
@@ -77,69 +87,73 @@ msgstr "Status aktivnosti"
 msgid "Activity Type Icon"
 msgstr "Ikona tipa aktivnosti"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.ui.menu,name:crm_claim.menu_aftersale
 msgid "After Sale"
 msgstr "Nakon prodaje"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__message_attachment_count
 msgid "Attachment Count"
 msgstr "Broj priloga"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model,name:crm_claim.model_crm_claim_report
 msgid "CRM Claim Report"
 msgstr "Izvještaj CRM potraživanja"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.ui.menu,name:crm_claim.menu_crm_case_claim-act
 msgid "Categories"
 msgstr "Kategorije"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__categ_id
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__categ_id
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_report_crm_claim_filter
 msgid "Category"
 msgstr "Kategorija"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model,name:crm_claim.model_crm_claim_category
 msgid "Category of claim"
 msgstr "Kategorija potraživanja"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model,name:crm_claim.model_crm_claim
-#: model:ir.model.fields,field_description:crm_claim.field_res_partner__claim_ids
-#: model:ir.model.fields,field_description:crm_claim.field_res_users__claim_ids
-#: model:ir.ui.menu,name:crm_claim.menu_config_claim
-#: model_terms:ir.ui.view,arch_db:crm_claim.crm_case_claims_form_view
 msgid "Claim"
 msgstr "Potraživanje"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.actions.act_window,name:crm_claim.crm_claim_categ_action
-#: model_terms:ir.ui.view,arch_db:crm_claim.crm_claim_category_form
 msgid "Claim Categories"
 msgstr "Kategorije potraživanja"
 
+# taken from hr.po
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__date
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__claim_date
 msgid "Claim Date"
 msgstr "Datum potraživanja"
 
+# taken from hr.po
 #. module: crm_claim
 #: model_terms:ir.ui.view,arch_db:crm_claim.view_crm_case_claims_filter
 msgid "Claim Date by Month"
 msgstr "Datum potraživanja po mjesecima"
 
+# taken from hr.po
 #. module: crm_claim
 #: model_terms:ir.ui.view,arch_db:crm_claim.crm_case_claims_form_view
 msgid "Claim Description"
 msgstr "Opis potraživanja"
 
+# taken from hr.po
 #. module: crm_claim
 #: model_terms:ir.ui.view,arch_db:crm_claim.view_crm_case_claims_filter
 msgid "Claim Month"
@@ -162,7 +176,6 @@ msgstr "Faze žalbi"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__name
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__subject
 msgid "Claim Subject"
 msgstr "Predmet žalbe"
 
@@ -178,14 +191,6 @@ msgstr "Opis žalbe/akcije"
 
 #. module: crm_claim
 #: model:ir.actions.act_window,name:crm_claim.crm_claim_category_claim0
-#: model:ir.ui.menu,name:crm_claim.menu_crm_case_claims
-#: model:ir.ui.menu,name:crm_claim.menu_report_crm_claim_tree
-#: model_terms:ir.ui.view,arch_db:crm_claim.crm_case_claims_calendar_view
-#: model_terms:ir.ui.view,arch_db:crm_claim.crm_case_claims_form_view
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_claim_res_partner_info_form
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_crm_case_claims_filter
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_report_crm_claim_graph
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_report_crm_claim_pivot
 msgid "Claims"
 msgstr "Žalbe"
 
@@ -226,8 +231,6 @@ msgstr "Zajedničko za sve timove"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__company_id
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__company_id
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_report_crm_claim_filter
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -243,7 +246,6 @@ msgstr "Korektivni"
 
 #. module: crm_claim
 #: model:ir.model.fields.selection,name:crm_claim.selection__crm_claim__type_action__correction
-#: model:ir.model.fields.selection,name:crm_claim.selection__crm_claim_report__type_action__correction
 msgid "Corrective Action"
 msgstr "Korektivna akcija"
 
@@ -259,17 +261,17 @@ msgid ""
 "            claims. Some examples of claims can be: preventive action,\n"
 "            corrective action."
 msgstr ""
+"Create claim categories to better manage and classify your\n"
+"            claims. Some examples of claims can be: preventive action,\n"
+"            corrective action."
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__create_uid
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_category__create_uid
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_stage__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_category__create_date
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_stage__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -295,8 +297,6 @@ msgstr "Datumi"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__date_deadline
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__date_deadline
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_crm_case_claims_filter
 msgid "Deadline"
 msgstr "Rok izvršenja"
 
@@ -317,9 +317,6 @@ msgstr "Odredišna e-pošta za e-mail gateway."
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__display_name
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_category__display_name
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__display_name
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_stage__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -360,7 +357,6 @@ msgstr "Font awesome ikona npr. fa-tasks"
 
 #. module: crm_claim
 #: model_terms:ir.ui.view,arch_db:crm_claim.view_crm_case_claims_filter
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_report_crm_claim_filter
 msgid "Group By"
 msgstr "Grupiši po"
 
@@ -375,18 +371,16 @@ msgid ""
 "Have a general overview of all claims processed in the system by sorting "
 "them with specific criteria."
 msgstr ""
+"Have a general overview of all claims processed in the system by sorting "
+"them with specific criteria."
 
 #. module: crm_claim
 #: model:ir.model.fields.selection,name:crm_claim.selection__crm_claim__priority__2
-#: model:ir.model.fields.selection,name:crm_claim.selection__crm_claim_report__priority__2
 msgid "High"
 msgstr "Visoki"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__id
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_category__id
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__id
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_stage__id
 msgid "ID"
 msgstr "ID"
 
@@ -416,6 +410,8 @@ msgid ""
 "If you check this field, this stage will be proposed by default on each "
 "sales team. It will not assign this stage to existing teams."
 msgstr ""
+"Ako označite ovo polje, ova faza će biti predložena po defaultu za svaki "
+"prodajni tim. Neće dodijeliti ovu fazu postojećim timovima."
 
 #. module: crm_claim
 #: model:crm.claim.stage,name:crm_claim.stage_claim5
@@ -429,22 +425,16 @@ msgstr "Pratilac"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim____last_update
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_category____last_update
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report____last_update
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_stage____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__write_uid
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_category__write_uid
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_stage__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_category__write_date
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_stage__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -454,10 +444,11 @@ msgid ""
 "Link between stages and sales teams. When set, this limitate the current "
 "stage to the selected sales teams."
 msgstr ""
+"Veza između faza i prodajnih timova. Kada je postavljeno, ovo ograničava "
+"trenutnu fazu na odabrane prodajne timove."
 
 #. module: crm_claim
 #: model:ir.model.fields.selection,name:crm_claim.selection__crm_claim__priority__0
-#: model:ir.model.fields.selection,name:crm_claim.selection__crm_claim_report__priority__0
 msgid "Low"
 msgstr "Nizak"
 
@@ -533,14 +524,13 @@ msgstr "Tip sljedeće aktivnosti"
 
 #. module: crm_claim
 #. odoo-python
-#: code:addons/crm_claim/models/crm_claim.py:0
+#: code:addons/crm_claim/models/crm_claim.py
 #, python-format
 msgid "No Subject"
 msgstr "Bez naslova"
 
 #. module: crm_claim
 #: model:ir.model.fields.selection,name:crm_claim.selection__crm_claim__priority__1
-#: model:ir.model.fields.selection,name:crm_claim.selection__crm_claim_report__priority__1
 msgid "Normal"
 msgstr "Normalan"
 
@@ -576,10 +566,6 @@ msgstr "Prekoračen rok"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__partner_id
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__partner_id
-#: model_terms:ir.ui.view,arch_db:crm_claim.crm_case_claims_form_view
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_crm_case_claims_filter
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_report_crm_claim_filter
 msgid "Partner"
 msgstr "Partner"
 
@@ -600,13 +586,11 @@ msgstr "Preventivno"
 
 #. module: crm_claim
 #: model:ir.model.fields.selection,name:crm_claim.selection__crm_claim__type_action__prevention
-#: model:ir.model.fields.selection,name:crm_claim.selection__crm_claim_report__type_action__prevention
 msgid "Preventive Action"
 msgstr "Preventivna akcija"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__priority
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__priority
 msgid "Priority"
 msgstr "Prioritet"
 
@@ -618,6 +602,10 @@ msgid ""
 "                You can send emails with attachments and keep the full history for a claim (emails sent, intervention type and so on).\n"
 "                Claims may automatically be linked to an email address using the mail gateway module."
 msgstr ""
+"Record and track your customers' claims.\n"
+"                Claims may be linked to a sales order or a lot.\n"
+"                You can send emails with attachments and keep the full history for a claim (emails sent, intervention type and so on).\n"
+"                Claims may automatically be linked to an email address using the mail gateway module."
 
 #. module: crm_claim
 #: model:crm.claim.stage,name:crm_claim.stage_claim3
@@ -641,13 +629,11 @@ msgstr "Odgovornosti"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__user_id
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_crm_case_claims_filter
 msgid "Responsible"
 msgstr "Odgovoran"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__activity_user_id
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_crm_case_claims_filter
 msgid "Responsible User"
 msgstr "Odgovorni korisnik"
 
@@ -657,6 +643,8 @@ msgid ""
 "Responsible sales team. Define Responsible user and Email account for mail "
 "gateway."
 msgstr ""
+"Odgovorni prodajni tim. Definiše odgovornog korisnika i email nalog za mail "
+"gateway."
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__cause
@@ -670,8 +658,6 @@ msgstr "Osnovni uzroci"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__team_id
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_category__team_id
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_report_crm_claim_filter
 msgid "Sales Team"
 msgstr "Prodajni tim"
 
@@ -702,9 +688,6 @@ msgstr "Riješeno"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__stage_id
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__stage_id
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_crm_case_claims_filter
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_report_crm_claim_filter
 msgid "Stage"
 msgstr "Faza"
 
@@ -726,6 +709,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report__team_id
@@ -744,6 +731,8 @@ msgid ""
 "outbound emails for this record before being sent. Separate multiple email "
 "addresses with a comma"
 msgstr ""
+"Ove email adrese će biti dodane u CC polje svih dolaznih i odlaznih emailova"
+" za ovaj zapis prije slanja. Odvojite više email adresa zarezom"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim__user_fault
@@ -752,7 +741,6 @@ msgstr "Odgovoran za problem"
 
 #. module: crm_claim
 #: model_terms:ir.ui.view,arch_db:crm_claim.crm_case_claims_tree_view
-#: model_terms:ir.ui.view,arch_db:crm_claim.view_crm_case_claims_filter
 msgid "Type"
 msgstr "Tip"
 
@@ -808,3 +796,6 @@ msgid ""
 "            claim entered in the system. The stages define all the steps\n"
 "            required for the resolution of a claim."
 msgstr ""
+"You can create claim stages to categorize the status of every\n"
+"            claim entered in the system. The stages define all the steps\n"
+"            required for the resolution of a claim."

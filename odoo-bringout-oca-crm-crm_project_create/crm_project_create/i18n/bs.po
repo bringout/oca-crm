@@ -20,8 +20,6 @@ msgstr "Otkaži"
 
 #. module: crm_project_create
 #: model:ir.actions.act_window,name:crm_project_create.crm_create_project_action
-#: model_terms:ir.ui.view,arch_db:crm_project_create.crm_create_project_view_form
-#: model_terms:ir.ui.view,arch_db:crm_project_create.crm_lead_view_form_crm_project_project
 msgid "Create Project"
 msgstr "Kreiraj projekt"
 

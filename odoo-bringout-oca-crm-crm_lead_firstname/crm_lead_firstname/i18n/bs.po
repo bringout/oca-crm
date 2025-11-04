@@ -13,31 +13,37 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: crm_lead_firstname
 #: model_terms:ir.ui.view,arch_db:crm_lead_firstname.crm_lead_view_form
 msgid "Contact Name"
 msgstr "Ime kontakta"
 
+# taken from hr.po
 #. module: crm_lead_firstname
 #: model:ir.model.fields,field_description:crm_lead_firstname.field_crm_lead__contact_name
 msgid "First name"
 msgstr "Ime"
 
+# taken from hr.po
 #. module: crm_lead_firstname
 #: model_terms:ir.ui.view,arch_db:crm_lead_firstname.crm_lead_view_form
 msgid "Firstname"
 msgstr "Ime"
 
+# taken from hr.po
 #. module: crm_lead_firstname
 #: model:ir.model.fields,field_description:crm_lead_firstname.field_crm_lead__contact_lastname
 msgid "Last name"
 msgstr "Prezime"
 
+# taken from hr.po
 #. module: crm_lead_firstname
 #: model_terms:ir.ui.view,arch_db:crm_lead_firstname.crm_lead_view_form
 msgid "Lastname"
 msgstr "Prezime"
 
+# taken from hr.po
 #. module: crm_lead_firstname
 #: model:ir.model,name:crm_lead_firstname.model_crm_lead
 msgid "Lead/Opportunity"

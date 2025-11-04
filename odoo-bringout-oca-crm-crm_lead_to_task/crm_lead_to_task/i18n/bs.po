@@ -13,69 +13,79 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: crm_project
-#: model_terms:ir.ui.view,arch_db:crm_project.crm_lead_convert2task_view_form
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model_terms:ir.ui.view,arch_db:crm_lead_to_task.crm_lead_convert2task_view_form
 msgid "Cancel"
 msgstr "Otkaži"
 
-#. module: crm_project
-#: model:ir.actions.act_window,name:crm_project.crm_lead_convert2task_action
-#: model_terms:ir.ui.view,arch_db:crm_project.crm_lead_convert2task_view_form
-#: model_terms:ir.ui.view,arch_db:crm_project.crm_lead_view_form
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model:ir.actions.act_window,name:crm_lead_to_task.crm_lead_convert2task_action
 msgid "Convert to Task"
 msgstr "Pretvori u zadatak"
 
-#. module: crm_project
-#: model_terms:ir.ui.view,arch_db:crm_project.crm_lead_convert2task_view_form
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model_terms:ir.ui.view,arch_db:crm_lead_to_task.crm_lead_convert2task_view_form
 msgid "Create Task"
 msgstr "Kreiraj zadatak"
 
-#. module: crm_project
-#: model:ir.model.fields,field_description:crm_project.field_crm_lead_convert2task__create_uid
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model:ir.model.fields,field_description:crm_lead_to_task.field_crm_lead_convert2task__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
-#. module: crm_project
-#: model:ir.model.fields,field_description:crm_project.field_crm_lead_convert2task__create_date
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model:ir.model.fields,field_description:crm_lead_to_task.field_crm_lead_convert2task__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
-#. module: crm_project
-#: model:ir.model.fields,field_description:crm_project.field_crm_lead_convert2task__display_name
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model:ir.model.fields,field_description:crm_lead_to_task.field_crm_lead_convert2task__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
-#. module: crm_project
-#: model:ir.model.fields,field_description:crm_project.field_crm_lead_convert2task__id
+#. module: crm_lead_to_task
+#: model:ir.model.fields,field_description:crm_lead_to_task.field_crm_lead_convert2task__id
 msgid "ID"
 msgstr "ID"
 
-#. module: crm_project
-#: model:ir.model.fields,field_description:crm_project.field_crm_lead_convert2task____last_update
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model:ir.model.fields,field_description:crm_lead_to_task.field_crm_lead_convert2task____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
-#. module: crm_project
-#: model:ir.model.fields,field_description:crm_project.field_crm_lead_convert2task__write_uid
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model:ir.model.fields,field_description:crm_lead_to_task.field_crm_lead_convert2task__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažurirao"
 
-#. module: crm_project
-#: model:ir.model.fields,field_description:crm_project.field_crm_lead_convert2task__write_date
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model:ir.model.fields,field_description:crm_lead_to_task.field_crm_lead_convert2task__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
-#. module: crm_project
-#: model:ir.model.fields,field_description:crm_project.field_crm_lead_convert2task__lead_id
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model:ir.model.fields,field_description:crm_lead_to_task.field_crm_lead_convert2task__lead_id
 msgid "Lead"
 msgstr "Potencijal"
 
-#. module: crm_project
-#: model:ir.model,name:crm_project.model_crm_lead_convert2task
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model:ir.model,name:crm_lead_to_task.model_crm_lead_convert2task
 msgid "Lead convert to Task"
 msgstr "Priliku pretvori u zadatak"
 
-#. module: crm_project
-#: model:ir.model.fields,field_description:crm_project.field_crm_lead_convert2task__project_id
+# taken from hr.po
+#. module: crm_lead_to_task
+#: model:ir.model.fields,field_description:crm_lead_to_task.field_crm_lead_convert2task__project_id
 msgid "Project"
 msgstr "Projekat"

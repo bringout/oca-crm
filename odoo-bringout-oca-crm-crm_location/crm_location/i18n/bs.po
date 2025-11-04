@@ -13,21 +13,25 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: crm_location
 #: model_terms:ir.ui.view,arch_db:crm_location.crm_lead_view_form
 msgid "City completion"
 msgstr "Završetak grada"
 
+# taken from hr.po
 #. module: crm_location
 #: model:ir.model,name:crm_location.model_crm_lead
 msgid "Lead/Opportunity"
 msgstr "Potencijalni klijent"
 
+# taken from hr.po
 #. module: crm_location
 #: model:ir.model.fields,field_description:crm_location.field_crm_lead__location_id
 msgid "Location"
 msgstr "Lokacija"
 
+# taken from hr.po
 #. module: crm_location
 #: model:ir.model.fields,help:crm_location.field_crm_lead__location_id
 msgid "Use the city name or the zip code to search the location"

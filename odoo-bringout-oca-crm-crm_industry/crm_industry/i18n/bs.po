@@ -15,11 +15,10 @@ msgstr ""
 
 #. module: crm_industry
 #: model_terms:ir.ui.view,arch_db:crm_industry.crm_lead_view_form
-#: model_terms:ir.ui.view,arch_db:crm_industry.view_crm_case_leads_filter
-#: model_terms:ir.ui.view,arch_db:crm_industry.view_crm_case_opportunities_filter
 msgid "Industry"
 msgstr "Industrija"
 
+# taken from hr.po
 #. module: crm_industry
 #: model:ir.model,name:crm_industry.model_crm_lead
 msgid "Lead/Opportunity"
@@ -30,14 +29,17 @@ msgstr "Potencijal/Prilika"
 msgid "Main Industry"
 msgstr "Glavna industrija"
 
+# taken from hr.po
 #. module: crm_industry
 #: model:ir.model.fields,field_description:crm_industry.field_crm_lead__secondary_industry_ids
+#, fuzzy
 msgid "Secondary Industries"
 msgstr "Sekundarni sektor"
 
+# taken from hr.po
 #. module: crm_industry
 #. odoo-python
-#: code:addons/crm_industry/models/crm_lead.py:0
+#: code:addons/crm_industry/models/crm_lead.py
 #, python-format
 msgid "The secondary industries must be different from the main industry."
 msgstr "Sekundarni sektor mora biti različiti od primarnog sektora."
