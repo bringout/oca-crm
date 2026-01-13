@@ -40,6 +40,6 @@ msgstr "Sekundarni sektor"
 #. module: crm_industry
 #. odoo-python
 #: code:addons/crm_industry/models/crm_lead.py
-#, python-format
+#, fuzzy, python-format
 msgid "The secondary industries must be different from the main industry."
 msgstr "Sekundarni sektor mora biti različiti od primarnog sektora."

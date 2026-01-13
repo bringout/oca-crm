@@ -99,17 +99,17 @@ msgstr "Da li je vjerovatnoća faze"
 #. module: crm_stage_probability
 #: model:ir.model.fields,field_description:crm_stage_probability.field_crm_lead_stage_probability_update____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: crm_stage_probability
 #: model:ir.model.fields,field_description:crm_stage_probability.field_crm_lead_stage_probability_update__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: crm_stage_probability
 #: model:ir.model.fields,field_description:crm_stage_probability.field_crm_lead_stage_probability_update__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: crm_stage_probability
 #: model:ir.model,name:crm_stage_probability.model_crm_lead
