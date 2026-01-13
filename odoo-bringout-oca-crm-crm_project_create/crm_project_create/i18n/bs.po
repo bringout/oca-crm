@@ -46,17 +46,17 @@ msgstr "ID"
 #. module: crm_project_create
 #: model:ir.model.fields,field_description:crm_project_create.field_crm_create_project____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: crm_project_create
 #: model:ir.model.fields,field_description:crm_project_create.field_crm_create_project__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: crm_project_create
 #: model:ir.model.fields,field_description:crm_project_create.field_crm_create_project__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: crm_project_create
 #: model:ir.model.fields,field_description:crm_project_create.field_crm_create_project__lead_id
