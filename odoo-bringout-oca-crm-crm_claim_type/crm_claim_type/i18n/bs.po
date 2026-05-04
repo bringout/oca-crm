@@ -23,7 +23,7 @@ msgstr "Prihvaćeno"
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 # taken from hr.po
 #. module: crm_claim_type
@@ -95,7 +95,7 @@ msgstr "Opis"
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: crm_claim_type
@@ -107,7 +107,7 @@ msgstr "Završeno"
 #. module: crm_claim_type
 #: model_terms:ir.ui.view,arch_db:crm_claim_type.crm_stage_claim_type_search
 msgid "Group By"
-msgstr "Grupiraj po"
+msgstr "Grupiši po"
 
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__id
@@ -127,7 +127,7 @@ msgstr ""
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: crm_claim_type
@@ -145,7 +145,7 @@ msgstr "Zadnje ažurirano"
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type__name
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 # taken from hr.po
 #. module: crm_claim_type

@@ -64,7 +64,7 @@ msgstr "Zadnja izmjena"
 #. module: crm_lead_to_task
 #: model:ir.model.fields,field_description:crm_lead_to_task.field_crm_lead_convert2task__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: crm_lead_to_task

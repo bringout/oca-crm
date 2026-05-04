@@ -34,7 +34,7 @@ msgstr "Potencijalni klijent"
 #. module: marketing_crm_partner
 #: model_terms:ir.ui.view,arch_db:marketing_crm_partner.view_partner_form
 msgid "Marketing"
-msgstr "Marketing"
+msgstr ""
 
 # taken from hr.po
 #. module: marketing_crm_partner
