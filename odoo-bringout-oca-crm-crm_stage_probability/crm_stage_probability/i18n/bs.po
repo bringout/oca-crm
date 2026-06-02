@@ -44,7 +44,7 @@ msgstr "CRM faze potencijalnih klijenata za ažuriranje"
 #. module: crm_stage_probability
 #: model_terms:ir.ui.view,arch_db:crm_stage_probability.view_crm_lead_stage_probability_update
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: crm_stage_probability
 #: model:ir.model.fields,field_description:crm_stage_probability.field_crm_stage__on_change
@@ -69,7 +69,7 @@ msgstr "Ažuriranje CRM faze"
 #. module: crm_stage_probability
 #: model:ir.model.fields,field_description:crm_stage_probability.field_crm_lead_stage_probability_update__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: crm_stage_probability
 #. odoo-python
@@ -94,17 +94,17 @@ msgstr "Da li je vjerovatnoća faze"
 #. module: crm_stage_probability
 #: model:ir.model.fields,field_description:crm_stage_probability.field_crm_lead_stage_probability_update____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: crm_stage_probability
 #: model:ir.model.fields,field_description:crm_stage_probability.field_crm_lead_stage_probability_update__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: crm_stage_probability
 #: model:ir.model.fields,field_description:crm_stage_probability.field_crm_lead_stage_probability_update__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: crm_stage_probability
 #: model:ir.model,name:crm_stage_probability.model_crm_lead
